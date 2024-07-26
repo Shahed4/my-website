@@ -33,7 +33,7 @@ export default function Home() {
                 <a href={""}>Shahed Ahmed</a>
               </h2>
               <label>Software Engineer Intern</label>
-              <p>System.out.println("Hello World");</p>
+              <p>System.out.println(&quot;Hello World&quot;);</p>
             </div>
 
             <div className={styles.sections}>
@@ -94,31 +94,31 @@ export default function Home() {
           <div className={styles.right_side}>
             <div ref={aboutMeRef} className={styles.about_me}>
               <p>
-                Hello! I'm Shahed Ahmed, an enthusiastic software engineer with
-                a keen interest in building web applications and machine
+                Hello! I&rsquo;m Shahed Ahmed, an enthusiastic software engineer
+                with a keen interest in building web applications and machine
                 learning. I am currently a junior attending The City College of
-                New York pursuing a Bachelor's degree in Computer Science. My
-                journey in the tech industry started with a simple curiosity in
-                how phones and gaming systems worked.
+                New York pursuing a Bachelor&rsquo;s degree in Computer Science.
+                My journey in the tech industry started with a simple curiosity
+                in how phones and gaming systems worked.
               </p>
               <p>
-                Throughout my studies, I've developed strong skills in
+                Throughout my studies, I&rsquo;ve developed strong skills in
                 JavaScript, Python, Java, and C++, and have gained experience
                 working with frameworks like React, Next.js, and Node.js.
               </p>
               <p>
-                I'm particularly passionate about backend development, where I
-                enjoy designing and optimizing databases and ensuring the
-                scalability and security of applications. My goal is to continue
-                honing my backend skills and work on complex systems that
-                require efficient data handling and robust architecture.
+                I&rsquo;m particularly passionate about backend development,
+                where I enjoy designing and optimizing databases and ensuring
+                the scalability and security of applications. My goal is to
+                continue honing my backend skills and work on complex systems
+                that require efficient data handling and robust architecture.
               </p>
               <p>
                 When I’m not writing code, you can find me at the gym or
                 strategizing my next chess move. I find these activities
-                relaxing and allows me to stay balanced.I'm always looking for
-                new challenges and opportunities to grow, both professionally
-                and personally.
+                relaxing and allows me to stay balanced.I&rsquo;m always looking
+                for new challenges and opportunities to grow, both
+                professionally and personally.
               </p>
             </div>
             <div ref={experiencesRef} className={styles.experience}>
@@ -127,6 +127,7 @@ export default function Home() {
                   className={styles.experience_card}
                   href={link}
                   target={"_blank"}
+                  key={company}
                 >
                   <div className={styles.time_frame}>
                     <p>{time}</p>
